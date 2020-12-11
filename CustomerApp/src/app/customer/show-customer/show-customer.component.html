@@ -1,0 +1,65 @@
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#exampleModal"
+data-backdrop="static" data-keyboard="false" (click)="addClick()" >
+    Add Customer
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">{{ModalTitle}}</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+          (click)="closeClick()">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <app-add-edit-customer [custo]="custo"  *ngIf="ActivateAddEdit"></app-add-edit-customer>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+    <table class="table table-hover">
+        <thead class="thead-light">
+            <tr>
+                <th>Name</th>
+                <th>City</th>
+                <th>District</th>
+                <th>Pincode</th>
+                <th>Email</th>
+                <th>Mobile</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let cust of CustomerList">
+                <td >{{cust.name}}</td>
+                <td >{{cust.city}}</td>
+                <td >{{cust.district}}</td>
+                <td >{{cust.pincode}}</td>
+                <td >{{cust.emailid}}</td>
+                <td >{{cust.mobile}}</td>
+                <td >{{cust.username}}</td>
+                <td >{{cust.password}}</td>
+                <td>
+                   
+                   <button class="btn btn-success" type="button"
+                   data-toggle="modal" data-target="#exampleModal"
+                   data-backdrop="static"
+                   data-keyboard="false" (click)="editClick(cust)">
+                       Edit
+                    </button>
+                   <button class="btn btn-danger" type="button" (click)="deleteData(cust)">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

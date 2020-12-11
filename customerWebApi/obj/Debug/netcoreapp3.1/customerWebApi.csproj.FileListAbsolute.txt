@@ -2,7 +2,6 @@ G:\WEB API\corewebapi\customerWebApi\customerWebApi\bin\Debug\netcoreapp3.1\apps
 G:\WEB API\corewebapi\customerWebApi\customerWebApi\bin\Debug\netcoreapp3.1\appsettings.json
 G:\WEB API\corewebapi\customerWebApi\customerWebApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 G:\WEB API\corewebapi\customerWebApi\customerWebApi\bin\Debug\netcoreapp3.1\customerWebApi.exe
-G:\WEB API\corewebapi\customerWebApi\customerWebApi\obj\Debug\netcoreapp3.1\customerWebApi.csprojAssemblyReference.cache
 G:\WEB API\corewebapi\customerWebApi\customerWebApi\obj\Debug\netcoreapp3.1\customerWebApi.AssemblyInfoInputs.cache
 G:\WEB API\corewebapi\customerWebApi\customerWebApi\obj\Debug\netcoreapp3.1\customerWebApi.AssemblyInfo.cs
 G:\WEB API\corewebapi\customerWebApi\customerWebApi\obj\Debug\netcoreapp3.1\customerWebApi.RazorTargetAssemblyInfo.cache
@@ -138,3 +137,4 @@ G:\WEB API\corewebapi\customerWebApi\customerWebApi\bin\Debug\netcoreapp3.1\zh-H
 G:\WEB API\corewebapi\customerWebApi\customerWebApi\obj\Debug\netcoreapp3.1\customerWebApi.csproj.CoreCompileInputs.cache
 G:\WEB API\corewebapi\customerWebApi\customerWebApi\obj\Debug\netcoreapp3.1\customerWebApi.MvcApplicationPartsAssemblyInfo.cs
 G:\WEB API\corewebapi\customerWebApi\customerWebApi\obj\Debug\netcoreapp3.1\customerWebApi.MvcApplicationPartsAssemblyInfo.cache
+G:\WEB API\corewebapi\customerWebApi\customerWebApi\obj\Debug\netcoreapp3.1\customerWebApi.csprojAssemblyReference.cache

@@ -34,7 +34,9 @@ namespace customerWebApi.Controllers
         }
 
         // POST: api/Customers
+        //[Route("Customers")]
         [HttpPost]
+        
         public void Post([FromBody] Customer customer)
         {
             _CRUDContext.customers.Add(customer);
@@ -42,10 +44,11 @@ namespace customerWebApi.Controllers
         }
 
         // PUT: api/Customers/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] Customer customer)
+        //[HttpPut("{id}")]
+        [HttpPut]
+        public void Put([FromBody] Customer customer)
         {
-            customer.custid = id;
+            //customer.custid = id;
             _CRUDContext.customers.Update(customer);
             _CRUDContext.SaveChanges();
         }
